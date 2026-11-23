@@ -1,0 +1,118 @@
+{
+	"actions": [
+		{
+			"name": "/actions/cloudpunk/in/left_stick",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/cloudpunk/in/right_stick",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/cloudpunk/in/left_trigger",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/cloudpunk/in/right_trigger",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/cloudpunk/in/left_grip",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/cloudpunk/in/right_grip",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/cloudpunk/in/a",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/in/b",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/in/x",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/in/y",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/in/left_stick_click",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/in/right_stick_click",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/in/left_menu",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/cloudpunk/out/haptic",
+			"type": "vibration"
+		}
+	],
+	"action_sets": [
+		{
+			"name": "/actions/cloudpunk",
+			"usage": "single"
+		}
+	],
+	"default_bindings": [
+		{
+			"controller_type": "oculus_touch",
+			"binding_url": "bindings_oculus_touch.json"
+		},
+		{
+			"controller_type": "knuckles",
+			"binding_url": "bindings_knuckles.json"
+		},
+		{
+			"controller_type": "vive_controller",
+			"binding_url": "bindings_vive_controller.json"
+		}
+	],
+	"localization": [
+		{
+			"language_tag": "en_US",
+			"/actions/cloudpunk": "Cloudpunk VR (raw controls; what they do is set in Cloudpunk VR 按键设置.exe)",
+			"/actions/cloudpunk/in/left_stick": "Left stick",
+			"/actions/cloudpunk/in/right_stick": "Right stick",
+			"/actions/cloudpunk/in/left_trigger": "Left trigger",
+			"/actions/cloudpunk/in/right_trigger": "Right trigger",
+			"/actions/cloudpunk/in/left_grip": "Left grip",
+			"/actions/cloudpunk/in/right_grip": "Right grip",
+			"/actions/cloudpunk/in/a": "A (right lower button)",
+			"/actions/cloudpunk/in/b": "B (right upper button)",
+			"/actions/cloudpunk/in/x": "X (left lower button)",
+			"/actions/cloudpunk/in/y": "Y (left upper button)",
+			"/actions/cloudpunk/in/left_stick_click": "Left stick click",
+			"/actions/cloudpunk/in/right_stick_click": "Right stick click",
+			"/actions/cloudpunk/in/left_menu": "Left menu button",
+			"/actions/cloudpunk/out/haptic": "Rumble"
+		},
+		{
+			"language_tag": "zh_CN",
+			"/actions/cloudpunk": "Cloudpunk VR（原始按键；具体功能在 Cloudpunk VR 按键设置.exe 里设置）",
+			"/actions/cloudpunk/in/left_stick": "左摇杆",
+			"/actions/cloudpunk/in/right_stick": "右摇杆",
+			"/actions/cloudpunk/in/left_trigger": "左扳机",
+			"/actions/cloudpunk/in/right_trigger": "右扳机",
+			"/actions/cloudpunk/in/left_grip": "左握把",
+			"/actions/cloudpunk/in/right_grip": "右握把",
+			"/actions/cloudpunk/in/a": "A 键（右手下）",
+			"/actions/cloudpunk/in/b": "B 键（右手上）",
+			"/actions/cloudpunk/in/x": "X 键（左手下）",
+			"/actions/cloudpunk/in/y": "Y 键（左手上）",
+			"/actions/cloudpunk/in/left_stick_click": "左摇杆按下",
+			"/actions/cloudpunk/in/right_stick_click": "右摇杆按下",
+			"/actions/cloudpunk/in/left_menu": "左手菜单键",
+			"/actions/cloudpunk/out/haptic": "震动"
+		}
+	]
+}

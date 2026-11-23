@@ -1,0 +1,111 @@
+{
+	"controller_type": "vive_controller",
+	"name": "Cloudpunk VR raw controls",
+	"description": "Trackpads act as sticks; right menu = B, left menu = menu button, pad clicks = A / X.",
+	"bindings": {
+		"/actions/cloudpunk": {
+			"sources": [
+				{
+					"path": "/user/hand/left/input/trackpad",
+					"mode": "trackpad",
+					"inputs": {
+						"position": {
+							"output": "/actions/cloudpunk/in/left_stick"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/trackpad",
+					"mode": "trackpad",
+					"inputs": {
+						"position": {
+							"output": "/actions/cloudpunk/in/right_stick"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/trackpad",
+					"mode": "button",
+					"inputs": {
+						"click": {
+							"output": "/actions/cloudpunk/in/a"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/left/input/trackpad",
+					"mode": "button",
+					"inputs": {
+						"click": {
+							"output": "/actions/cloudpunk/in/x"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/left/input/trigger",
+					"mode": "trigger",
+					"inputs": {
+						"pull": {
+							"output": "/actions/cloudpunk/in/left_trigger"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/trigger",
+					"mode": "trigger",
+					"inputs": {
+						"pull": {
+							"output": "/actions/cloudpunk/in/right_trigger"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/left/input/grip",
+					"mode": "button",
+					"inputs": {
+						"click": {
+							"output": "/actions/cloudpunk/in/left_grip"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/grip",
+					"mode": "button",
+					"inputs": {
+						"click": {
+							"output": "/actions/cloudpunk/in/right_grip"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/right/input/application_menu",
+					"mode": "button",
+					"inputs": {
+						"click": {
+							"output": "/actions/cloudpunk/in/b"
+						}
+					}
+				},
+				{
+					"path": "/user/hand/left/input/application_menu",
+					"mode": "button",
+					"inputs": {
+						"click": {
+							"output": "/actions/cloudpunk/in/left_menu"
+						}
+					}
+				}
+			],
+			"haptics": [
+				{
+					"output": "/actions/cloudpunk/out/haptic",
+					"path": "/user/hand/left/output/haptic"
+				},
+				{
+					"output": "/actions/cloudpunk/out/haptic",
+					"path": "/user/hand/right/output/haptic"
+				}
+			]
+		}
+	}
+}
